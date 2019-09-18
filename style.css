@@ -1,0 +1,98 @@
+body {
+    background-color: lightcyan;
+}
+
+#title {
+    text-align: center;
+   
+    padding-top: 25px;    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    color: lightcoral;
+}
+
+
+#description {
+    text-align: center;
+    font-size: 18px;
+    color: darkolivegreen;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+   
+   width: 900px;
+   margin: 0 auto;
+   font-size: 18px;
+   color: darkolivegreen;
+}
+
+.group {
+    display: block;
+}
+.label-tab {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    padding-top: 30px;
+    
+}
+.input-tab {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    padding-left: 40px;
+    
+}
+
+.label-radio {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    padding-top: 36px;
+    vertical-align: top;
+}
+.input-radio {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+   
+}
+.label-checkbox {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 50px;
+}
+.input-checkbox {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.label-textbox {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 50px;
+}
+.input-textbox {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 50px;   
+}
+.submit-div {
+    text-align: center;
+    padding: 50px;
+}

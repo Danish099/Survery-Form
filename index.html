@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     
+        <div id="title">
+            <h1>Survey Form</h1>
+        </div>  
+        
+      
+        <div id="description">
+            <p>Let us know how we can improve freeCodeCamp</p>
+        </div>
+        
+        <form id="survey-form">
+
+                      <div class="group">
+                        <div class="label-tab"
+                        <label for="Name">*Name</label>
+                        </div>
+                        <div class="input-tab">
+                        <input id="Name" type="text" placeholder="Enter your name" style= "height: 30px; width: 300px;" required>
+                        </div>
+                      </div>
+                      <div class="group">
+                        <div class="label-tab">
+                        <label for="Email">*Email</label>
+                        </div>
+                        <div class="input-tab">
+                        <input id="Email" type="text" placeholder="Enter your email" style= "height: 30px; width: 300px;" required>
+                        </div>
+                      </div>
+                      <div class="group">
+                        <div class="label-tab">
+                        <label for="Age">*Age</label>
+                        </div>
+                        <div class="input-tab">
+                        <input id="Age" type="text" placeholder="Enter your age" style= "height: 30px; width: 300px;" required>
+                         </div>
+                      </div>   
+                            
+                      <div class="group">
+                        <div class="label-tab">
+                            <label for="currentPos">Which option best describes your current position? </label>
+                          </div>
+                          <div class="input-tab">
+                            <select id="currentPos" style=" font-size: 16px; color: gray;">
+                                    <option disabled>Select an option</option>
+                                    <option value="Student">Student</option>
+                                    <option value="FullTimeJob">Full Time Job</option>
+                                    <option value="FullTimeLearner">Full Time Learner</option> 
+                                    <option value="PreferNo">Prefer not to say</option>
+                                    <option value="Other">Other</option>            
+                                </select>
+                                </div>
+                          </div>
+
+                          <div class="group">
+                             <div class="label-radio">
+                              * How likely is it that you recommend FreeCodeCamp to your friends? 
+                              </div>
+                              <div class="input-radio">
+                                <div>
+                                  <label>
+                                     <input type="radio" name="recom">
+                                     Definitely
+                                  </label>
+                                </div>
+                                <div>
+                                  <label> 
+                                      <input type="radio" name="recom">
+                                      Maybe
+                                   </label>
+                                  </div>
+                                  <div>
+                                   <label> 
+                                      <input type="radio" name="recom">
+                                      Not Sure
+                                   </label>
+                                </div>                                 
+                          </div>   
+                          
+                          <div class="group">
+                              <div class="label-tab">
+                                  <label for="likeMost" >What do you like most in FCC: </label>
+                                </div>
+                                <div class="input-tab">
+                                    <select id="dropdown" style=" font-size: 16px; color: gray;">
+                                        <option disabled>Select an option</option>
+                                        <option value="Challenges">Challenges</option>
+                                        <option value="Project">Project</option> 
+                                        <option value="Community">Community</option>
+                                        <option value="Open Source">Open Source</option>            
+                                    </select>
+                                      </div>
+                          </div>
+
+
+                          <div class="group">
+                            <div class="label-checkbox">
+                              Things that can be improved in future? (Check all that apply)
+                            </div>
+                            
+                              <div class="input-checkbox">
+                                <div>
+                                     <label>
+                                         <input name="checkbox" type="checkbox"> Front-end Projects
+                                     </label>
+                                </div>
+                                <div>
+                                    <label>
+                                        <input name="checkbox" type="checkbox"> Back-end Projects
+                                    </label>
+                               </div>
+                               <div>
+                                  <label>
+                                      <input name="checkbox" type="checkbox"> Data Visualization
+                                  </label>
+                             </div>
+                             <div>
+                                <label>
+                                    <input name="checkbox" type="checkbox"> Challenges
+                                </label>
+                             </div>
+                             <div>
+                                <label>
+                                    <input name="checkbox" type="checkbox"> Open Source Community
+                                </label>
+                           </div>
+                           <div>
+                              <label>
+                                  <input name="checkbox" type="checkbox"> Gitter Help Rooms
+                              </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input name="checkbox" type="checkbox"> Videos
+                                </label>
+                           </div>
+                           <div>
+                              <label>
+                                  <input name="checkbox" type="checkbox"> City Meetups
+                              </label>
+                         </div>
+                         <div>
+                            <label>
+                                <input name="checkbox" type="checkbox"> Wiki
+                            </label>
+                       </div>
+                       <div>
+                          <label>
+                              <input name="checkbox" type="checkbox"> Forums
+                          </label>
+                     </div>
+                     <div>
+                        <label>
+                            <input name="checkbox" type="checkbox"> Additional Courses
+                        </label>
+                   </div>
+                               
+                      </div>
+                   </div>
+
+                   <div class="group">
+                     <div class="label-textbox">
+                      Any Comments or Suggestions ?
+                     </div>
+                  <div class="input-textbox">
+                      <textarea id="comments" class="input-field" name="comment" style= "height: 80px; width: 300px;" placeholder="Type your comment here..."></textarea>
+                  </div>
+                 </div>
+
+                 <div class="submit-div">
+                   <input type="submit" style="height: 40px; width: 80px; background-color: lightcoral; color: white; border-radius: 20px;">
+                 </div>
+
+        </form>
+
+     
+    </body>
+</html>
